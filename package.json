@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-gridsome",
+  "private": true,
+  "description": "A simple starter blog to get up and developing quickly with Forestry & Gridsome",
+  "license": "MIT",
+  "version": "0.1.0",
+  "author": "luandro",
+  "scripts": {
+    "build": "gridsome build",
+    "dev": "gridsome develop",
+    "explore": "gridsome explore",
+    "forestry-preview": "gridsome develop -p 8080 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.5.0",
+    "gridsome": "^0.7.13",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-masonry": "^0.11.8"
+  },
+  "keywords": [
+    "gridsome",
+    "forestry"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luandro/portfolio-gridsome"
+  }
+}
